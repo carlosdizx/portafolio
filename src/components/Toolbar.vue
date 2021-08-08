@@ -1,18 +1,21 @@
 <template>
 	<div>
-		<v-toolbar
-			dark
-			prominent
-			src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg"
-		>
-			<v-app-bar-nav-icon></v-app-bar-nav-icon>
-
-			<v-toolbar-title>Vuetify</v-toolbar-title>
+		<v-toolbar dark prominent src="../assets/toolbar_fondo.jpg">
+			<v-toolbar-title>Bienvenido a mi portafolio</v-toolbar-title>
 
 			<v-spacer></v-spacer>
 
 			<v-btn icon>
-				<v-icon>mdi-export</v-icon>
+				<v-icon>mdi-github</v-icon>
+			</v-btn>
+			<v-btn icon>
+				<v-icon>mdi-linkedin</v-icon>
+			</v-btn>
+			<v-btn icon>
+				<v-icon>mdi-instagram</v-icon>
+			</v-btn>
+			<v-btn icon>
+				<v-icon>mdi-file-document</v-icon>
 			</v-btn>
 		</v-toolbar>
 	</div>
