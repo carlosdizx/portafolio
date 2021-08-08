@@ -1,9 +1,11 @@
 <template>
 	<div>
 		<v-toolbar dark prominent src="../assets/toolbar_fondo.jpg">
-			<v-toolbar-title>Bienvenido a mi portafolio</v-toolbar-title>
+			<v-toolbar-title>
+				Bienvenidos a mi perfil
+			</v-toolbar-title>
 
-			<v-spacer></v-spacer>
+			<v-spacer />
 
 			<v-btn icon>
 				<v-icon>mdi-github</v-icon>
@@ -27,4 +29,3 @@
 	};
 </script>
 
-<style scoped></style>
