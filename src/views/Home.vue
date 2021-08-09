@@ -1,6 +1,6 @@
 <template>
 	<v-container>
-		<v-card dark color="secondary lighten-1"max-width="800" class="mx-auto">
+		<v-card dark color="pink darken-4" max-width="900" class="mx-auto">
 			<ListadoProyectos />
 		</v-card>
 	</v-container>

@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<v-toolbar dark color="indigo" prominent>
+		<v-toolbar dark color="blue darken-4" prominent>
 			<v-toolbar-title>
 				Bienvenido a mi perfil
 			</v-toolbar-title>

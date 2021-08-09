@@ -3,7 +3,7 @@
 		<v-card-title class="text-h5 text--white">
 			Proyectos
 		</v-card-title>
-		<v-card class="mt-12" color="secondary lighten-5">
+		<v-card class="mt-12">
 			<v-container>
 				<v-card-title>
 					<v-img src="../assets/proyectos/img1.png" />
@@ -20,7 +20,7 @@
 			/>
 		</v-card>
 
-		<v-card class="mt-12" color="secondary lighten-5">
+		<v-card class="mt-12">
 			<v-container>
 				<v-card-title>
 					<v-img src="../assets/proyectos/img4.png" />
@@ -37,7 +37,7 @@
 			/>
 		</v-card>
 
-		<v-card class="mt-12" color="secondary lighten-5">
+		<v-card class="mt-12">
 			<v-container>
 				<v-card-title>
 					<v-img src="../assets/proyectos/img2.png" />
@@ -55,7 +55,7 @@
 			/>
 		</v-card>
 
-		<v-card class="mt-12" color="secondary lighten-5">
+		<v-card class="mt-12">
 			<v-container>
 				<v-card-title>
 					<v-img src="../assets/proyectos/img5.png" />
@@ -73,7 +73,7 @@
 			/>
 		</v-card>
 
-		<v-card class="mt-12" color="secondary lighten-5">
+		<v-card class="mt-12">
 			<v-container>
 				<v-card-title>
 					<v-img src="../assets/proyectos/img3.png" />
@@ -87,7 +87,7 @@
 			/>
 		</v-card>
 
-		<v-card class="mt-12" color="secondary lighten-5">
+		<v-card class="mt-12">
 			<v-container>
 				<v-card-title>
 					<v-img src="../assets/proyectos/img6.png" />
