@@ -1,6 +1,9 @@
 <template>
 	<v-container>
-		<v-card dark color="pink darken-4" max-width="900" class="mx-auto">
+		<v-card max-width="950" class="mx-auto mb-12">
+			<Info />
+		</v-card>
+		<v-card dark color="pink darken-5" max-width="950" class="mx-auto">
 			<ListadoProyectos />
 		</v-card>
 	</v-container>
@@ -9,9 +12,10 @@
 <script lang="ts">
 	import Vue from 'vue';
 	import ListadoProyectos from '../components/ListadoProyectos.vue';
+	import Info from '../components/Info.vue';
 
 	export default Vue.extend({
 		name: 'Home',
-		components: { ListadoProyectos },
+		components: { ListadoProyectos, Info },
 	});
 </script>
