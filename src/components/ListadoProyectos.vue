@@ -1,5 +1,6 @@
 <template>
 	<div>
+		 <div class="text--primary"><h1>Proyectos</h1></div>
 		<v-card class="mt-12">
 			<v-container>
 				<v-card-title>
@@ -78,9 +79,24 @@
 			</v-container>
 			<Proyecto
 				titulo="Caja registradora"
-				sub-titulo="Aplicación para llevar registro de ventas de un restaurante del municipio de Consacá Nariño "
+				sub-titulo="Aplicación para llevar registro de ventas de un restaurante del municipio de Consacá Nariño VUE - JAVASCRIPT"
 				pagina="https://caja-registradora.netlify.app/"
 				repositorio="https://github.com/carlosdizx/caja-registradora"
+			/>
+		</v-card>
+
+		<v-card class="mt-12">
+			<v-container>
+				<v-card-title>
+					<v-img src="../assets/proyectos/img6.png" />
+				</v-card-title>
+			</v-container>
+			<Proyecto
+				titulo="Paises del mundo"
+				sub-titulo="Muestra el listado de países del mundo, los agrupa por diferentes
+				 como son por regiones, además de que tiene por cada país datos únicos de este. ANGULAR - JAVASCRIPT"
+				pagina="https://arena-paises-del-mundo.netlify.app/"
+				repositorio="https://github.com/carlosdizx/Paises-del-Mundo"
 			/>
 		</v-card>
 	</div>
