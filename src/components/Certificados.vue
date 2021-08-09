@@ -1,14 +1,16 @@
 <template>
-	<v-carousel>
-		<v-carousel-item
-			v-for="(imh, i) in imagenes"
-			:key="i"
-			:src="imh.src"
-			reverse-transition="fade-transition"
-			transition="fade-transition"
-		>
-		</v-carousel-item>
-	</v-carousel>
+	<div>
+		<v-carousel>
+			<v-carousel-item
+				v-for="(imagen, i) in imagenes"
+				:key="i"
+				:src="getImgUrl(imagen.src)"
+				reverse-transition="fade-transition"
+				transition="fade-transition"
+			>
+			</v-carousel-item>
+		</v-carousel>
+	</div>
 </template>
 
 <script>
@@ -16,21 +18,14 @@
 		name: 'Certificados',
 		data() {
 			return {
-				imagenes: [
-					{
-						src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',
-					},
-					{
-						src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',
-					},
-					{
-						src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',
-					},
-					{
-						src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
-					},
-				],
+				imagenes: [{ src: 'GCP' }, { src: '14CCC' }, { src: 'CACIED4' }, { src: 'CIC' }],
 			};
+		},
+		methods: {
+			getImgUrl(pet) {
+				const images = require.context('../assets/certificados/', false, /\.jpg$/);
+				return images('./' + pet + '.jpg');
+			},
 		},
 	};
 </script>

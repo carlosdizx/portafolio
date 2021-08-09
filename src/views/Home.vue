@@ -3,13 +3,14 @@
 		<v-card max-width="1000" class="mx-auto mb-12">
 			<Info />
 		</v-card>
-		<v-card dark color="pink darken-5" max-width="800" class="mx-auto mb-12">
-			<ListadoProyectos />
-		</v-card>
-		<v-card dark color="pink darken-5" max-width="800" class="mx-auto">
+		<v-card dark color="pink darken-5" max-width="800" class="mx-auto mb-12 pb-2">
 			<v-card-title>Certificados y cursos</v-card-title>
 			<Certificados />
 		</v-card>
+		<v-card dark color="pink darken-5" max-width="800" class="mx-auto mb-12">
+			<ListadoProyectos />
+		</v-card>
+
 	</v-container>
 </template>
 
