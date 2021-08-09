@@ -14,7 +14,7 @@
 			>
 			<v-card-text>
 				<v-btn color="success" text>
-					Pagina
+					Página
 					<v-icon>mdi-web</v-icon>
 				</v-btn>
 				<v-spacer></v-spacer>

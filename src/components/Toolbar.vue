@@ -28,4 +28,3 @@
 		name: 'Toolbar',
 	};
 </script>
-
