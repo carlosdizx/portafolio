@@ -4,7 +4,7 @@
 			<v-carousel-item
 				v-for="(imagen, i) in imagenes"
 				:key="i"
-				:src="getImgUrl(imagen.src)"
+				:src="darRutaImagen(imagen.src)"
 				reverse-transition="fade-transition"
 				transition="fade-transition"
 			>
@@ -22,7 +22,7 @@
 			};
 		},
 		methods: {
-			getImgUrl(pet) {
+			darRutaImagen(pet) {
 				const images = require.context('../assets/certificados/', false, /\.jpg$/);
 				return images('./' + pet + '.jpg');
 			},
