@@ -1,28 +1,33 @@
 <template>
 	<div>
 		<v-card class="mx-auto">
-			<v-card-title>{{ titulo }}</v-card-title>
-			<v-card-subtitle>
-				<v-expansion-panels>
-					<v-expansion-panel>
-						<v-expansion-panel-header>
-							Descripción
-						</v-expansion-panel-header>
-						<v-expansion-panel-content>{{ subTitulo }}</v-expansion-panel-content>
-					</v-expansion-panel>
-				</v-expansion-panels></v-card-subtitle
-			>
-			<v-card-text>
-				<v-btn color="success" text>
-					Página
-					<v-icon>mdi-web</v-icon>
-				</v-btn>
-				<v-spacer></v-spacer>
-				<v-btn color="primary" text>
-					Repositorio
-					<v-icon>mdi-source-repository</v-icon>
-				</v-btn>
-			</v-card-text>
+			<v-card>
+				<v-card-title>{{ titulo }}</v-card-title>
+				<v-card-subtitle>
+					<v-expansion-panels>
+						<v-expansion-panel>
+							<v-expansion-panel-header>
+								Descripción
+							</v-expansion-panel-header>
+							<v-expansion-panel-content>{{ subTitulo }}</v-expansion-panel-content>
+						</v-expansion-panel>
+					</v-expansion-panels>
+				</v-card-subtitle>
+			</v-card>
+
+			<v-card>
+				<v-card-text>
+					<v-btn color="success" text role="link" :href="pagina" target="_blank">
+						Página
+						<v-icon>mdi-web</v-icon>
+					</v-btn>
+					<v-spacer></v-spacer>
+					<v-btn color="primary" text role="link" :href="repositorio" target="_blank">
+						Repositorio
+						<v-icon>mdi-source-repository</v-icon>
+					</v-btn>
+				</v-card-text>
+			</v-card>
 		</v-card>
 	</div>
 </template>

@@ -7,13 +7,33 @@
 				</v-card-title>
 			</v-container>
 			<Proyecto
-				titulo="Inventas"
+				titulo="Inventas-Frontend"
 				sub-titulo="Aplicación que permite registrar inventarios, realizar ventas, obtener un listado de facturas
 					y productos/servicios no vendidos, registrar productos o servicios, registrar clientes y generar informes
 					de ventas, productos más vendidos, clientes con más compras. Además, la aplicación cuenta con seguridad y
-					 autentificación por roles para los recursos disponibles."
+					 autentificación por roles para los recursos disponibles. VUE - JAVASCRIPT"
+				pagina="https://inventas.netlify.app/"
+				repositorio="https://github.com/carlosdizx/inventas-frontend"
 			/>
 		</v-card>
+
+		<v-card class="mt-12">
+			<v-container>
+				<v-card-title>
+					<v-img src="../assets/proyectos/img4.png" />
+				</v-card-title>
+			</v-container>
+			<Proyecto
+				titulo="Inventas-Backend"
+				sub-titulo="Aplicación que permite registrar inventarios, realizar ventas, obtener un listado de facturas
+					y productos/servicios no vendidos, registrar productos o servicios, registrar clientes y generar informes
+					de ventas, productos más vendidos, clientes con más compras. Además, la aplicación cuenta con seguridad y
+					 autentificación por roles para los recursos disponibles. JAVA - SPRING"
+				pagina="https://inventas.herokuapp.com/"
+				repositorio="https://github.com/carlosdizx/inventas-backend"
+			/>
+		</v-card>
+
 		<v-card class="mt-12">
 			<v-container>
 				<v-card-title>
@@ -21,12 +41,46 @@
 				</v-card-title>
 			</v-container>
 			<Proyecto
-				titulo="Trazabilidad de la situación del COVID19 en la Universidad Mariana"
+				titulo="Trazabilidad de la situación del COVID19 en la Universidad Mariana - Frontend"
 				sub-titulo="Este proyecto era una simulación para probar la efectiva podría tener una herramienta digital para
 					 mantener un control y registro de las personas de la Universidad Mariana
 					 respecto a su situación frente al COVID-19, genera gráficas de resumen y categoriza
 					  la información por roles o cargos desempeñados en la
-					  Universidad y también por facultad a la que pertenecen estas personas."
+					  Universidad y también por facultad a la que pertenecen estas personas. ANGULAR - JAVASCRIPT"
+				pagina="https://umariana-traza-covid19.netlify.app/"
+				repositorio="https://github.com/carlosdizx/VacunacionCovid19UniversidadMarianaFrontend"
+			/>
+		</v-card>
+
+		<v-card class="mt-12">
+			<v-container>
+				<v-card-title>
+					<v-img src="../assets/proyectos/img5.png" />
+				</v-card-title>
+			</v-container>
+			<Proyecto
+				titulo="Trazabilidad de la situación del COVID19 en la Universidad Mariana - Backend"
+				sub-titulo="Este proyecto era una simulación para probar la efectiva podría tener una herramienta digital para
+					 mantener un control y registro de las personas de la Universidad Mariana
+					 respecto a su situación frente al COVID-19, genera gráficas de resumen y categoriza
+					  la información por roles o cargos desempeñados en la
+					  Universidad y también por facultad a la que pertenecen estas personas. JAVA - SPRING"
+				pagina="https://umariana-traza-covid19.netlify.app/"
+				repositorio="https://github.com/carlosdizx/VacunacionCovid19UniversidadMarianaFrontend"
+			/>
+		</v-card>
+
+		<v-card class="mt-12">
+			<v-container>
+				<v-card-title>
+					<v-img src="../assets/proyectos/img3.png" />
+				</v-card-title>
+			</v-container>
+			<Proyecto
+				titulo="Caja registradora"
+				sub-titulo="Aplicación para llevar registro de ventas de un restaurante del municipio de Consacá Nariño "
+				pagina="https://caja-registradora.netlify.app/"
+				repositorio="https://github.com/carlosdizx/caja-registradora"
 			/>
 		</v-card>
 	</div>
