@@ -1,6 +1,6 @@
 <template>
 	<v-container>
-		<v-card max-width="800" class="mx-auto">
+		<v-card dark max-width="800" class="mx-auto">
 			<ListadoProyectos />
 		</v-card>
 	</v-container>

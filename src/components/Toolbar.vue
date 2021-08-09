@@ -2,7 +2,7 @@
 	<div>
 		<v-toolbar dark prominent src="../assets/toolbar_fondo.jpg">
 			<v-toolbar-title>
-				Bienvenidos a mi perfil
+				Bienvenido a mi perfil
 			</v-toolbar-title>
 
 			<v-spacer />

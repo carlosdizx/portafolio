@@ -1,6 +1,8 @@
 <template>
 	<div>
-		 <div class="text--primary"><h1>Proyectos</h1></div>
+		<v-card-title class="text-h5 text--white">
+			Proyectos
+		</v-card-title>
 		<v-card class="mt-12">
 			<v-container>
 				<v-card-title>
