@@ -3,13 +3,13 @@
 		<v-card-title>
 			Carlos Ernesto Díaz Basante
 		</v-card-title>
-		<v-card-subtitle>
+		<v-card-subtitle class='text-black'>
 			Ingeniero de Sistemas - Universidad Mariana
 		</v-card-subtitle>
 		<v-card-text>
-			<v-container>
+			<v-container max-width='300'>
 				<div>
-					Hola
+					{{ infoBio }}
 				</div>
 			</v-container>
 		</v-card-text>
@@ -17,22 +17,28 @@
 </template>
 
 <script>
+	import { INFO_BIO } from '@/assets/textos';
+
 	export default {
 		name: 'Info',
+		data: () => ({
+			infoBio: INFO_BIO
+		}),
 	};
 </script>
 
 <style scoped>
-	div {
+	.v-card {
 		min-height: 0;
 		background-image: url('../assets/foto_perfil.jpg');
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
 		background-attachment: fixed;
+		color: black;
 	}
 
-	div:before {
+	.v-card:before {
 		content: '';
 		width: 100%;
 		min-height: 100%;
