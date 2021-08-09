@@ -36,3 +36,5 @@
 		name: 'Toolbar',
 	};
 </script>
+<style scoped>
+</style>

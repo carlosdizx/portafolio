@@ -1,9 +1,9 @@
 <template>
 	<v-container>
-		<v-card max-width="950" class="mx-auto mb-12">
+		<v-card max-width="1000" class="mx-auto mb-12">
 			<Info />
 		</v-card>
-		<v-card dark color="pink darken-5" max-width="950" class="mx-auto">
+		<v-card dark color="pink darken-5" max-width="800" class="mx-auto">
 			<ListadoProyectos />
 		</v-card>
 	</v-container>
