@@ -1,7 +1,7 @@
 <template>
 	<div>
-		<v-card class="mx-auto">
-			<v-card>
+		<v-card class="mx-auto" color="secondary lighten-5">
+			<v-card color="secondary lighten-5">
 				<v-card-title>{{ titulo }}</v-card-title>
 				<v-card-subtitle>
 					<v-expansion-panels>
@@ -15,7 +15,7 @@
 				</v-card-subtitle>
 			</v-card>
 
-			<v-card>
+			<v-card color="secondary lighten-5">
 				<v-card-text>
 					<v-btn color="success" text role="link" :href="pagina" target="_blank">
 						Página

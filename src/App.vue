@@ -3,7 +3,7 @@
 		<Toolbar />
 		<v-main>
 			<div id="main">
-				<v-card color="primary lighten-4">
+				<v-card color="blue lighten-5">
 					<router-view />
 				</v-card>
 			</div>
