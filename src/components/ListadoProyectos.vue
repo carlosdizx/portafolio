@@ -17,6 +17,7 @@
 					 autentificación por roles para los recursos disponibles. VUE - JAVASCRIPT"
 				pagina="https://inventas.netlify.app/"
 				repositorio="https://github.com/carlosdizx/inventas-frontend"
+				advertencia
 			/>
 		</v-card>
 
@@ -34,6 +35,7 @@
 					 autentificación por roles para los recursos disponibles. JAVA - SPRING"
 				pagina="https://inventas.herokuapp.com/"
 				repositorio="https://github.com/carlosdizx/inventas-backend"
+				advertencia
 			/>
 		</v-card>
 
@@ -52,6 +54,7 @@
 					  Universidad y también por facultad a la que pertenecen estas personas. ANGULAR - JAVASCRIPT"
 				pagina="https://umariana-traza-covid19.netlify.app/"
 				repositorio="https://github.com/carlosdizx/VacunacionCovid19UniversidadMarianaFrontend"
+				advertencia
 			/>
 		</v-card>
 
@@ -70,6 +73,7 @@
 					  Universidad y también por facultad a la que pertenecen estas personas. JAVA - SPRING"
 				pagina="https://traza-mariana.herokuapp.com/"
 				repositorio="https://github.com/carlosdizx/Vacunacion-Universidad-Mariana-Covid19"
+				advertencia
 			/>
 		</v-card>
 

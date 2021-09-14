@@ -16,6 +16,9 @@
 			</v-card>
 
 			<v-card color="secondary darken-1">
+				<v-alert v-if="advertencia" dense color="secondary lighten-4">
+					El tiempo de carga de la pagina puede tardar hasta 2 minuto, sea paciente 😷
+				</v-alert>
 				<v-card-text>
 					<v-btn color="success" text role="link" :href="pagina" target="_blank">
 						Página
@@ -41,6 +44,7 @@
 			subTitulo: String,
 			pagina: String,
 			repositorio: String,
+			advertencia: Boolean,
 		},
 	};
 </script>
