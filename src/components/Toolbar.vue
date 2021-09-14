@@ -2,7 +2,11 @@
 	<div>
 		<v-toolbar dark color="blue darken-4" prominent>
 			<v-toolbar-title>
-				Bienvenido a mi perfil
+				<v-img
+					src="../assets/logo.png"
+					max-height="100"
+					max-width="100"
+				/>
 			</v-toolbar-title>
 
 			<v-spacer />
@@ -36,5 +40,4 @@
 		name: 'Toolbar',
 	};
 </script>
-<style scoped>
-</style>
+<style scoped></style>

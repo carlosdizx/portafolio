@@ -68,8 +68,8 @@
 					 respecto a su situación frente al COVID-19, genera gráficas de resumen y categoriza
 					  la información por roles o cargos desempeñados en la
 					  Universidad y también por facultad a la que pertenecen estas personas. JAVA - SPRING"
-				pagina="https://umariana-traza-covid19.netlify.app/"
-				repositorio="https://github.com/carlosdizx/VacunacionCovid19UniversidadMarianaFrontend"
+				pagina="https://traza-mariana.herokuapp.com/"
+				repositorio="https://github.com/carlosdizx/Vacunacion-Universidad-Mariana-Covid19"
 			/>
 		</v-card>
 
