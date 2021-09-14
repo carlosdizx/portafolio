@@ -3,6 +3,26 @@
 		<v-card-title class="text-h5 text--white">
 			Proyectos
 		</v-card-title>
+
+		<v-card class="mt-12">
+			<v-container>
+				<v-card-title>
+					<v-img src="../assets/proyectos/img7.png" />
+				</v-card-title>
+			</v-container>
+			<Proyecto
+				titulo="GPPU - Gestión de prácticas y pasantías universitarias"
+				sub-titulo="Proyecto colaborativo entre La Universidad Mariana y
+				 La Universidad de Nariño, el cual es un aplicativo web que permite la gestión
+				  de las prácticas y pasantías universitarias de dichas universidades.
+				   Actualmente están construcción pero existe una versión Alpha de prueba.
+				    VUE - JAVASCRIPT"
+				pagina="https://gppu.netlify.app/"
+				repositorio="https://github.com/carlosdizx/gppu-frontend.git"
+				advertencia
+			/>
+		</v-card>
+
 		<v-card class="mt-12">
 			<v-container>
 				<v-card-title>
